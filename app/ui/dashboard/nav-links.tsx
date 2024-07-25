@@ -21,6 +21,10 @@ const links = [
   { name: 'Customers', href: '/dashboard/customers', icon: UserGroupIcon },
 ];
 
+/**
+ * Component to display the navigation links in the side navigation.
+ * @return {JSX.Element} The component to render.
+ */
 export default function NavLinks() {
   const pathname = usePathname();
 
